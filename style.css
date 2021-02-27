@@ -1,0 +1,41 @@
+ul li:nth-of-type(4), ul li:nth-of-type(3) {
+    color: rgb(206, 19, 19);
+}
+
+ol li:nth-of-type(2), ol li:nth-of-type(4) {
+    font-size: 25px;
+}
+
+div :nth-of-type(2){
+    color: white;
+}
+
+div p:nth-child(1){
+    font-style: italic;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+button{
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px;
+}
+
+button:hover{
+    border: 1px;
+    border-radius: 10px;
+    background-color: blue;
+    border-style: solid;
+}
+
+button:focus{
+    width: 250px;
+    height: 150px;
+    border-radius: 0px;
+    border-style: none;
+}
