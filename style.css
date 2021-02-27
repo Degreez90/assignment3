@@ -37,5 +37,5 @@ button:focus{
     width: 250px;
     height: 150px;
     border-radius: 0px;
-    border-style: none;
+    border-style: solid;
 }
